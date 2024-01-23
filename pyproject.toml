@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "demistomock"
+version = "0.1.0"
+description = "Este paquete proporciona un conjunto de módulos esenciales para el desarrollo local de automatizaciones e integraciones en la plataforma Cortex XSOAR."
+authors = ["David Choque Llanos <david.choquellanos.ext@telefonica.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
