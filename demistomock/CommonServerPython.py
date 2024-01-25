@@ -29,7 +29,7 @@ from distutils.version import LooseVersion
 from threading import Lock
 from inspect import currentframe
 
-import demistomock as demisto
+from demistomock import demisto
 import warnings
 
 
